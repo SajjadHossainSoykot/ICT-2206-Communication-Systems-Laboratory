@@ -21,6 +21,7 @@ subplot(3, 1, 2);
 plot(t, stooth); % plotting the sawtooth wave
 title('Pulse Carrier Wave');
 
+pwm=zeros(size(t));
 %Plotting the Pulse Width Modulation.....
 for i = 1:length(t)
 
